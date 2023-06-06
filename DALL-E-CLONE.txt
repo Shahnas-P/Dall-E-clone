@@ -1,0 +1,36 @@
+Command :
+1 install vite - npm create vite@latest ./
+2 npm install
+
+
+
+1 create a folder for frontend - client   
+   # create using vite tool  - https://vitejs.dev
+   # install vite
+   # npm install
+2 dowloade the zip file  - assets   //place inside src folder 
+3 clear index.css and add some code from their git hub .
+4 install tailwindcss 
+   4.1 choose vite framework to install tailwindcss 
+   4.2 npm install -D tailwindcss postcss autoprefixer
+   4.3 npx tailwindcss init -p
+   4.4 index.css  based on given code 
+   4.5 tailwind.confin.js 
+   4.6 npm install file-saver 
+   4.7 run  - npm run dev
+5 npm install react-router-dom
+6 create pages folder 
+  - create CreatePost.jsx
+  -create Home.jsx 
+
+Developing Home.jsx
+ 
+- import useState and useEffect 
+- create a components folder  inside src folder 
+   - inside components folder create a Card.jsx file  - to run our image  ( run rfce)
+   - create FormField.jsx  ( run rfce)
+   -Loader.jsx  ( Copy from loading animation of svg)
+   -creat a index.js file and impor all file (Card.jsx,Loading.jsx and FormField.jsx)
+   -Creat useState 1 - Loading
+                   2 -allPost
+
